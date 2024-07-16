@@ -1,0 +1,13 @@
+class Solution {
+    // Method to calculate the sum of all divisors of a given number N
+    static long sumOfDivisors(int N) {
+        long totalSum = 0;
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= i; j++) {
+                if (i % j == 0) {
+                    totalSum += j;
+                }
+            }
+        }
+        return totalSum;
+    }
