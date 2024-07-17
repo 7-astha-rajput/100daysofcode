@@ -1,7 +1,7 @@
                                 
 public class Main {
     // Continue loop as long as both
-    // a and b are greater than 0
+    // a and b are greater than 0 
     public static int findGcd(int a, int b) {
         while(a > 0 && b > 0) {
             // If a is greater than b,
