@@ -1,8 +1,8 @@
 class Solution {
     long sumOfSeries(long n) {
         // code here
-    int sum = 0;
-    for (int i = 1;i<=n;i++){
+    long sum = 0;
+    for (long i = 1;i<=n;i++){
         sum = sum + (i*i*i);
         
     }
