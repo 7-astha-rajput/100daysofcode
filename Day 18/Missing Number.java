@@ -1,1 +1,5 @@
-solve properly
+class Solution {
+    public int missingNumber(int[] nums) {
+        
+    }
+}
