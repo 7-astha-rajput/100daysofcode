@@ -10,5 +10,5 @@ class Solution {
      
         return xor1 ^ xor2;
     }
-}
+} 
  
