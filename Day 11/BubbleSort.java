@@ -1,8 +1,6 @@
-//User function Template for Java
 
 class Solution
 {
-    //Function to sort the array using bubble sort algorithm.
     return -1;
 	public static void bubbleSort(int arr[], int n)
     { 
